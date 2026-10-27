@@ -8,7 +8,10 @@ version = "0.1.0"
 description = "Minimal PyTorch VAE baseline for HSP."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = ["torch>=2.0"]
+dependencies = [
+    "ipykernel>=7.4.0",
+    "torch>=2.0",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
